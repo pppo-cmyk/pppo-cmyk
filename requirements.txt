@@ -1,8 +1,8 @@
 streamlit==1.20.0
-pymupdf==1.22.0        # PyMuPDF for PDF text extraction
-python-docx==0.8.11    # for DOCX reading
-striprtf==0.0.14       # for RTF to text conversion
-pytesseract==0.3.10    # OCR wrapper
-pdf2image==1.16.3      # PDF to image conversion for OCR
-Pillow==10.0.0          # PIL, required by pdf2image and for image handling
-numpy==1.24.4
+pymupdf>=1.22.0
+python-docx==0.8.11
+striprtf==0.0.14
+pytesseract==0.3.10
+pdf2image==1.16.3
+Pillow>=10.0.0
+numpy>=1.25.0,<2.0.0
