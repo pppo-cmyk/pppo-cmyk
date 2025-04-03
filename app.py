@@ -1,6 +1,6 @@
-import streamlit as st
+import streamlit as st # type: ignore
 import os
-import pandas as pd
+import pandas as pd # type: ignore
 from io import BytesIO
 from doc_utils import extract_text_from_file, classify_document, suggest_filename, ensure_directory
 
